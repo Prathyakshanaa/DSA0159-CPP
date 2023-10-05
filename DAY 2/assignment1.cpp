@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 class PlasticTransaction {
 private:
     double costPrice;
@@ -18,7 +18,7 @@ public:
 int main() {
     PlasticTransaction transaction;
     double profit = transaction.getProfit();
-    std::cout << "Kiran earns " << profit << " rupees by selling 1 kg of plastic." << std::endl;
+    std::cout << "Kiran earns " << profit << " rupees by selling 1 kg of plastic.";
     return 0;
 }
 
